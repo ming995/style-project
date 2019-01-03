@@ -6,6 +6,16 @@ body {
     background-color: #F2F3F8;
 }
 
+.import {
+    display: inline-block;
+    padding: 0.5rem;
+    font-size: 1.4rem;
+    position: relative;
+    border-radius: .25rem;
+    background: #eeeeee;
+    color: #6b76ff;
+}
+
 .wrap {
     margin: 10px;
     font-family: arial,"Hiragino Sans GB","Microsoft Yahei",sans-serif;
@@ -28,6 +38,8 @@ body {
     border-radius: .25rem;
     font-size: 1.4rem;
 }
+
+/* 盒子模型 */
 
 .margin-style {
     margin: 0 auto;
@@ -75,7 +87,37 @@ body {
     font-weight: 700;
 }
 
-.one-child {
+.child {
     font-size: 1.4rem;
 }
 
+/* 清除浮动 */
+
+.div1 {
+    float: left;
+    width: 2rem;
+    height: 100px;
+    background: #f185b3;
+}
+
+.div2 {
+    float: left;
+    width: 2rem;
+    height: 100px;
+    background: #d52484;
+}
+
+.div3 {
+    float: left;
+    width: 2rem;
+    height: 100px;
+    background: #90007f;
+}
+
+/* 清除浮动 core code */
+.clear-float::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+/*=====================*/
