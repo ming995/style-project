@@ -6,6 +6,7 @@ body {
     background-color: #F2F3F8;
 }
 
+/* 重点突出需要的样式 */
 .import {
     display: inline-block;
     padding: 0.5rem;
@@ -15,6 +16,7 @@ body {
     background: #eeeeee;
     color: #6b76ff;
 }
+/* ========================= */
 
 .wrap {
     margin: 10px;
@@ -39,8 +41,23 @@ body {
     font-size: 1.4rem;
 }
 
-/* 盒子模型 */
+/* desc */
 
+.desc {
+    margin-top: 1rem;
+    font-size: 1.8rem;
+}
+
+.desc-title {
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
+.child {
+    font-size: 1.4rem;
+}
+
+/* 盒子模型 */
 .margin-style {
     margin: 0 auto;
     text-align: center;
@@ -74,25 +91,9 @@ body {
     font-size: 3rem;
     font-weight: 700;
 } 
-
-/* desc */
-
-.desc {
-    margin-top: 1rem;
-    font-size: 1.8rem;
-}
-
-.desc-title {
-    font-size: 1.8rem;
-    font-weight: 700;
-}
-
-.child {
-    font-size: 1.4rem;
-}
+/* ======== 盒子模型 END ============== */
 
 /* 清除浮动 */
-
 .div1 {
     float: left;
     width: 2rem;
@@ -120,4 +121,4 @@ body {
     display: block;
     clear: both;
 }
-/*=====================*/
+/*======== 清除浮动 END ==========*/
