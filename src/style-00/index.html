@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="./style.css" rel="stylesheet">
+    <title>Layout</title>
+</head>
+<body>
+    <!-- Box-sizing reset
+        盒子模型
+        1. W3C模型：
+        2. IE模型：
+    -->
+    <div class="wrap">
+        <span>CSS-盒子模型</span>
+        <div class="content">
+            <div class="snippet">
+                <div class="margin-style">
+                    <span class="margin-desc">margin</span>
+                    <div class="border-style">
+                        <span class="margin-desc">border</span>
+                        <div class="padding-style">
+                            <span class="margin-desc">padding</span>
+                            <div class="content-style">
+                                <span class="margin-desc">content</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="desc">
+                    <span class="desc-title">区别</span>
+                    <p class="one-child">
+                        IE模型的宽度：content + padding + border
+                    </p>
+                    <p class="one-child">
+                        标准模型的宽度：content
+                    </p>
+                </div>  
+            </div>
+        </div>
+    </div>
+</body>
+</html>
